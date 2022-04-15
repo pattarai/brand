@@ -21,9 +21,9 @@ jobs:
           node-version: 16
       - name: Installing Packages
         run: |
-          npm install
+          yarn install
       - name: Starting the Node File
-        run: npm start
+        run: yarn start
       - name: Commiting to the Repo
         run: |
           git config user.name github-actions
