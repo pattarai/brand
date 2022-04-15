@@ -1,0 +1,16 @@
+{
+  "name": "pattarai-brand",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "repository": "https://github.com/Pinto565/pattarai-brand.git",
+  "author": "Pinto565 <pintoinfant5650@gmail.com>",
+  "scripts": {
+    "start": "ts-node src/app.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^17.0.24",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
